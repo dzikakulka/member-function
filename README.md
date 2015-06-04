@@ -1,18 +1,16 @@
 # member-functions
 originally by Ron Lawrence <ral@bit-net.com>
 
-Pulled from:
-
+Pulled from:  
 http://www.emacswiki.org/emacs/ExpandMemberFunctions
 
-**Changes:**
-* Added handling for multiple character extensions of source files. 
+**Changes:**  
+Added handling for multiple character extensions of source files. 
 
-**How does it work:**
-
-Expands functions headers from header file into blank functions in source file.
-Works with custom header/source file extensions.
-Quick use with input file names guessing.
+**How does it work:**  
+Expands functions headers from header file into blank functions in source file.  
+Works with custom header/source file extensions.  
+Quick use with input file names guessing.  
 
 
 **INSTALLATION:**
@@ -20,7 +18,7 @@ Quick use with input file names guessing.
 1. Copy member-functions.el to desired folder [example: cp member-functions.el ~/.emacs.d/lisp]
 
 2. Add following lines to your .emacs file [by default at ~/.emacs]:
-```
+```lisp
    ;; load the member-function
    (load "PATH TO FILE") ;; [example: (load "~/.emacs.d/lisp/member-functions)], best not to include .el
    (require 'member-functions)
